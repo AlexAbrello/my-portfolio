@@ -1,5 +1,28 @@
-.container {
+.header {
     width: 100%;
     height: 50px;
     background-color: darkgreen;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navWrapper {
+    display: flex;
+}
+
+.navWrapper div {
+    color: white;
+    opacity: .9;
+    margin-right: 30px;
+    text-decoration: none;
 }

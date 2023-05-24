@@ -4,6 +4,7 @@ import {Header} from "./components/Header/Header";
 import {Main} from "./components/Main/Main";
 import {SecondBlock} from "./components/Second Block/SecondBlock";
 import {ThirdBlock} from "./components/Third Block/ThirdBlock";
+import {FourthBlock} from "./components/Fourth Block/FourthBlock";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Main />
           <SecondBlock />
           <ThirdBlock />
+          <FourthBlock />
         </div>
       </div>
   );

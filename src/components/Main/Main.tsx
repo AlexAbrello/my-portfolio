@@ -9,7 +9,7 @@ export const Main = () => {
           <div className={style.info}>
             <div className={style.text}>
               <div>Hi, my name is Aleksey Adamovich!</div>
-              <div>And I web-developer!</div>
+              <div>And I'm a web-developer!</div>
             </div>
             <div>
               <img src={ava} alt="Samurai" className={style.photo}/>

@@ -2,7 +2,8 @@ import React from 'react';
 import style from './App.module.css'
 import {Header} from "./components/Header/Header";
 import {Main} from "./components/Main/Main";
-import {UniversalBlock} from "./components/Second Block/UniversalBlock";
+import {SecondBlock} from "./components/Second Block/SecondBlock";
+import {ThirdBlock} from "./components/Third Block/ThirdBlock";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <Header/>
         <div>
           <Main />
-          <UniversalBlock />
+          <SecondBlock />
+          <ThirdBlock />
         </div>
       </div>
   );

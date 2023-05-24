@@ -1,13 +1,13 @@
 import React from 'react';
 import style from './SecondBlock.module.css'
-import {Skills} from "../Examples/Skills";
+import {Skills} from "../Skills/Skills";
 
-export const UniversalBlock = () => {
+export const SecondBlock = () => {
   return (
       <div className={style.page}>
         <div className={style.container}>
           <div className={style.info}>
-            <div className={style.title}>My works</div>
+            <div className={style.title}>My skills</div>
             <div className={style.examples}>
               <Skills />
               <Skills />

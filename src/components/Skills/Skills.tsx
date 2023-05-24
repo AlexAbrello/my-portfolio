@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Examples.module.css'
+import style from './Skills.module.css'
 import logo from '../../logo192.png'
 
 export const Skills = () => {

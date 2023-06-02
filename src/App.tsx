@@ -5,6 +5,7 @@ import {Main} from "./components/Main/Main";
 import {SecondBlock} from "./components/Second Block/SecondBlock";
 import {ThirdBlock} from "./components/Third Block/ThirdBlock";
 import {FourthBlock} from "./components/Fourth Block/FourthBlock";
+import {Contact} from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <SecondBlock />
           <ThirdBlock />
           <FourthBlock />
+          <Contact />
         </div>
       </div>
   );

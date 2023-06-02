@@ -6,6 +6,7 @@ import {SecondBlock} from "./components/Second Block/SecondBlock";
 import {ThirdBlock} from "./components/Third Block/ThirdBlock";
 import {FourthBlock} from "./components/Fourth Block/FourthBlock";
 import {Contact} from "./components/Contact/Contact";
+import {Footer} from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <ThirdBlock />
           <FourthBlock />
           <Contact />
+          <Footer />
         </div>
       </div>
   );

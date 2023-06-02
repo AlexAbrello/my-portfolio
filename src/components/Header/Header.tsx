@@ -7,10 +7,10 @@ export const Header = () => {
         <div className={style.container}>
           <div className={style.wrapper}>
             <nav className={style.navWrapper}>
-              <div>Main</div>
-              <div>My skills</div>
-              <div>My works</div>
-              <div>Contacts</div>
+              <a href='#'>Main</a>
+              <a href='#'>My skills</a>
+              <a href='#'>My works</a>
+              <a href='#'>Contacts</a>
             </nav>
           </div>
         </div>

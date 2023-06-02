@@ -23,7 +23,7 @@
     display: flex;
 }
 
-.navWrapper div {
+.navWrapper a {
     color: white;
     opacity: .9;
     margin-right: 30px;

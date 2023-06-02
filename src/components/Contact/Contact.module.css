@@ -48,6 +48,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 button[type="submit"] {
@@ -69,4 +70,10 @@ input:focus,
 textarea:focus {
     outline: none;
     box-shadow: 0 0 2px #007bff;
+}
+
+@media (max-width: 768px) {
+    input, textarea {
+        width: 90%;
+    }
 }

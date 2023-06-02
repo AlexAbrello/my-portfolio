@@ -8,10 +8,10 @@ export const Footer = () => {
           <div className={style.info}>
             <div className={style.title}>Aleksey Adamovich</div>
             <div className={style.networks}>
-              <a href="#">Vkontakte</a>
-              <a href="#">Telegram</a>
-              <a href="#">WhatsApp</a>
-              <a href="#">Discord</a>
+              <a href="#" className={style.networksItem}>Vkontakte</a>
+              <a href="#" className={style.networksItem}>Telegram</a>
+              <a href="#" className={style.networksItem}>WhatsApp</a>
+              <a href="#" className={style.networksItem}>Discord</a>
             </div>
           </div>
         </div>

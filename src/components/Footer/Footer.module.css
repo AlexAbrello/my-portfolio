@@ -35,3 +35,17 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 1024px) {
+    .networks {
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .networks {
+        flex-direction: column;
+    }
+    .networksItem {
+        margin-bottom: 10px;
+    }
+}

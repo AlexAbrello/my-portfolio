@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AlexAbrello/my-portfolio/static/css/main.70cb53b1.css",
+    "main.js": "/AlexAbrello/my-portfolio/static/js/main.c1be70b9.js",
+    "static/js/787.128fc6e9.chunk.js": "/AlexAbrello/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/samurai.jpg": "/AlexAbrello/my-portfolio/static/media/samurai.b274a82360af945edda2.jpg",
+    "index.html": "/AlexAbrello/my-portfolio/index.html",
+    "main.70cb53b1.css.map": "/AlexAbrello/my-portfolio/static/css/main.70cb53b1.css.map",
+    "main.c1be70b9.js.map": "/AlexAbrello/my-portfolio/static/js/main.c1be70b9.js.map",
+    "787.128fc6e9.chunk.js.map": "/AlexAbrello/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70cb53b1.css",
+    "static/js/main.c1be70b9.js"
+  ]
+}

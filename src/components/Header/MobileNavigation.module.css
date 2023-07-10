@@ -10,10 +10,12 @@
     background-color: rgba(0, 0, 0, .9);
     position: absolute;
     z-index: 20;
-    top: 50px;
+    top: 0;
     left: 0;
 }
 .burgerMenu {
+    position: absolute;
+    z-index: 25;
     font-size: 34px;
     color: #d9832e;
     opacity: .7;
@@ -29,11 +31,23 @@
     text-transform: uppercase;
     text-align: center;
     width: 100%;
+    position: relative;
+}
+.nav a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    bottom: -10px;
+    left: 0;
 }
 .navIcon {
     font-size: 28px;
     margin-top: 30px;
 }
+
+
 @media (min-width: 1024px) {
     .wrapper {
         display: none;

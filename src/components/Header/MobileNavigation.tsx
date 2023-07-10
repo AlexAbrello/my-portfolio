@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import style from './MobileNavigation.module.css'
 import {FaBrain, FaBriefcase, FaHome, FaPhone} from "react-icons/fa";
-import { IoReorderThreeOutline, IoCloseOutline } from 'react-icons/io5'
+import {IoReorderThreeOutline, IoCloseOutline} from 'react-icons/io5'
 
 
 export const MobileNavigation = () => {
@@ -34,7 +34,7 @@ export const MobileNavigation = () => {
                 </div>
             </nav>}
         <div className={style.burgerMenu} onClick={() => setCondition(!condition)}>
-          { condition ? <IoCloseOutline /> : <IoReorderThreeOutline />  }
+          {condition ? <IoCloseOutline/> : <IoReorderThreeOutline/>}
         </div>
       </div>
   );

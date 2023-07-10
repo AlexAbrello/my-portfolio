@@ -22,7 +22,7 @@ export const Header = () => {
           <div className={style.nav}>
             <a href='#'>
               <div className={style.navIcon}><FaBriefcase/></div>
-              My works</a>
+              portfolio</a>
           </div>
           <div className={style.nav}>
             <a href='#'>

@@ -1,8 +1,8 @@
 import React from 'react';
-import style from './SecondBlock.module.css'
+import style from './MySkills.module.css'
 import {Skills} from "../Skills/Skills";
 
-export const SecondBlock = () => {
+export const MySkills = () => {
   return (
       <div className={style.page}>
         <div className={style.container}>

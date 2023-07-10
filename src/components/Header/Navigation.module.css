@@ -30,10 +30,17 @@
     text-transform: uppercase;
     text-align: center;
     width: 100%;
+    transition: ease-in-out all 0.3s;
+
 }
 .nav a:hover {
     color: #d9832e;
 }
 .navIcon {
     font-size: 28px;
+}
+@media (max-width: 1023px) {
+    .header {
+        display: none;
+    }
 }

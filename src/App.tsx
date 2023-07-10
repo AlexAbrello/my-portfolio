@@ -1,8 +1,7 @@
 import React from 'react';
-import style from './App.module.css'
 import {Header} from "./components/Header/Header";
 import {Main} from "./components/Main/Main";
-import {SecondBlock} from "./components/Second Block/SecondBlock";
+import {MySkills} from "./components/My Skills/MySkills";
 import {ThirdBlock} from "./components/Third Block/ThirdBlock";
 import {FourthBlock} from "./components/Fourth Block/FourthBlock";
 import {Contact} from "./components/Contact/Contact";
@@ -13,7 +12,7 @@ function App() {
       <div>
         <Header/>
           <Main />
-          <SecondBlock />
+          <MySkills />
           <ThirdBlock />
           <FourthBlock />
           <Contact />

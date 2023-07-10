@@ -26,6 +26,7 @@
 }
 .buttonWrapper {
     display: flex;
+    margin-left: 10px;
 }
 .buttonWrapper button {
     border: 2px solid transparent;
@@ -36,7 +37,7 @@
     font-weight: 500;
     text-transform: uppercase;
     -webkit-transition: ease-in-out all 0.55s;
-    transition: ease-in-out all 0.55s;
+    transition: ease-in-out all 0.3s;
     text-align: center;
 }
 .buttonMyWork button{

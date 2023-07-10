@@ -1,0 +1,41 @@
+.wrapper {
+}
+.navigationList {
+    width: 100%;
+    height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .9);
+    position: absolute;
+    z-index: 20;
+    top: 50px;
+    left: 0;
+}
+.burgerMenu {
+    font-size: 34px;
+    color: #d9832e;
+    opacity: .7;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.nav a {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #d9832e;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+.navIcon {
+    font-size: 28px;
+    margin-top: 30px;
+}
+@media (min-width: 1024px) {
+    .wrapper {
+        display: none;
+    }
+}

@@ -12,14 +12,12 @@ function App() {
   return (
       <div>
         <Header/>
-        <div>
           <Main />
           <SecondBlock />
           <ThirdBlock />
           <FourthBlock />
           <Contact />
           <Footer />
-        </div>
       </div>
   );
 }

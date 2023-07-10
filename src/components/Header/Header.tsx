@@ -4,16 +4,20 @@ import style from './Header.module.css'
 export const Header = () => {
   return (
       <header className={style.header}>
-        <div className={style.container}>
-          <div className={style.wrapper}>
-            <nav className={style.navWrapper}>
-              <a href='#'>Main</a>
-              <a href='#'>My skills</a>
-              <a href='#'>My works</a>
-              <a href='#'>Contacts</a>
-            </nav>
+        <nav>
+          <div className={style.navIcon}>
+            <a href='#'>Main</a>
           </div>
-        </div>
+          <div className={style.navIcon}>
+            <a href='#'>My skills</a>
+          </div>
+          <div className={style.navIcon}>
+            <a href='#'>My works</a>
+          </div>
+          <div className={style.navIcon}>
+            <a href='#'>Contacts</a>
+          </div>
+        </nav>
       </header>
   );
 };

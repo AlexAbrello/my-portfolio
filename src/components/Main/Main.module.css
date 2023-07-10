@@ -4,11 +4,11 @@
     justify-content: space-between;
     background: rgb(255,255,255);
     background: linear-gradient(126deg, rgba(255,255,255,1) 0%, rgba(210, 209, 209, 0.5) 100%);
+    margin-left: 150px;
 }
 .textWrapper {
     padding: 10px;
     margin-top: 200px;
-    margin-left: 150px;
 }
 .textHi {
     font-size: 26px;
@@ -20,38 +20,40 @@
 }
 .text {
     text-align: justify;
+    font-weight: 400;
 }
 .photo {
 }
-/*.container {*/
-/*    max-width: 1200px;*/
-/*    height: 100%;*/
-/*    margin: 0 auto;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*}*/
-
-/*.info {*/
-/*    width: 80%;*/
-/*    height: 400px;*/
-/*    border: 1px solid black;*/
-/*    background-color: grey;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: space-around;*/
-/*}*/
-
-/*.text {*/
-/*    color: white;*/
-/*}*/
-
-/*.photo {*/
-/*    border-radius: 15px;*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*    .info {*/
-/*        flex-direction: column;*/
-/*    }*/
-/*}*/
+.buttonWrapper {
+    display: flex;
+}
+.buttonWrapper button {
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-transition: ease-in-out all 0.55s;
+    transition: ease-in-out all 0.55s;
+    text-align: center;
+}
+.buttonMyWork button{
+    background: #d9832e;
+    color: #ffffff;
+    border-color: #d9832e;
+    margin-right: 15px;
+}
+.buttonMyWork button:hover {
+    background-color: #000000;
+    border-color: transparent;
+}
+.buttonHireMe button {
+    background: transparent;
+    color: #d9832e;
+    border-color: #d9832e;
+}
+.buttonHireMe button:hover {
+    background: #d9832e;
+    color: #ffffff;
+}

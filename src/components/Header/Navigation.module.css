@@ -39,7 +39,7 @@
 .navIcon {
     font-size: 28px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
     .header {
         display: none;
     }

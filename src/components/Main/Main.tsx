@@ -6,7 +6,7 @@ import {Button} from "../Button/Button";
 export const Main = () => {
   return (
       <div className={style.page}>
-        <div>
+        <div className={style.infoWrapper}>
           <div className={style.textWrapper}>
             <h6 className={style.textHi}>Hello there...</h6>
             <h1 className={style.textName}>Aleksey Adamovich</h1>

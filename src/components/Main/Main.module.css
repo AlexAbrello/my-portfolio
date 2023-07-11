@@ -2,32 +2,39 @@
     height: 100vh;
     display: flex;
     justify-content: space-between;
-    background: rgb(255,255,255);
-    background: linear-gradient(126deg, rgba(255,255,255,1) 0%, rgba(210, 209, 209, 0.5) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(126deg, rgba(255, 255, 255, 1) 0%, rgba(210, 209, 209, 0.5) 100%);
     margin-left: 150px;
 }
+
 .textWrapper {
     padding: 10px;
     margin-top: 200px;
 }
+
 .textHi {
     font-size: 26px;
     font-weight: 400;
     margin: 0;
 }
+
 .textName {
     font-size: 36px;
 }
+
 .text {
     text-align: justify;
     font-weight: 400;
 }
+
 .photo {
 }
+
 .buttonWrapper {
     display: flex;
     margin-left: 10px;
 }
+
 .buttonWrapper button {
     border: 2px solid transparent;
     padding: 10px 20px;
@@ -40,22 +47,60 @@
     transition: ease-in-out all 0.3s;
     text-align: center;
 }
-.buttonMyWork button{
+
+.buttonMyWork button {
     background: #d9832e;
     color: #ffffff;
     border-color: #d9832e;
     margin-right: 15px;
 }
+
 .buttonMyWork button:hover {
     background-color: #000000;
     border-color: transparent;
 }
+
 .buttonHireMe button {
     background: transparent;
     color: #d9832e;
     border-color: #d9832e;
 }
+
 .buttonHireMe button:hover {
     background: #d9832e;
     color: #ffffff;
+}
+
+@media (max-width: 1025px) {
+    .infoWrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        width: 90%;
+    }
+
+    .page {
+        display: block;
+        margin-left: 0;
+    }
+
+    .textWrapper {
+        margin: 0 0 10px 0;
+        background-color: rgba(255, 255, 255, .5);
+    }
+
+    .photo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+}
+
+@media (max-width: 426px) {
+    .photo {
+        right: -15%;
+    }
 }

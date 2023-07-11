@@ -1,8 +1,22 @@
 .container {
     width: 1024px;
     margin: 0 auto;
+    padding: 50px 0 50px;
 }
 .page {
     width: 100%;
     background-color: #eaedf2;
+}
+.description {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 20px;
+}
+.stackInfo {
+    display: flex;
+    justify-content: space-around;
+}
+.stackText {
+    text-align: center;
+    font-weight: 700;
 }

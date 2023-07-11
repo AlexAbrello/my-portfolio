@@ -14,7 +14,7 @@
 }
 .stackInfo {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .stackText {
     text-align: center;

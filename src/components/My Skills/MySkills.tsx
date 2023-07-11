@@ -10,31 +10,37 @@ export const MySkills = () => {
   return (
       <div className={style.page}>
         <div className={style.container}>
-          <Headline name={'My Stack'}/>
+          <div style={{marginLeft: '50px'}}>
+            <Headline name={'My Stack'}/>
+          </div>
           <div className={style.description}>
             <div className={style.stackInfo}>
               <div>
-                <FaHtml5 style={{color: '#d9832e', fontSize: '70px'}}/>
+                <FaHtml5 style={{color: '#d9832e', fontSize: '70px', margin: '0 65px 0'}}/>
                 <p className={style.stackText}>HTML</p>
               </div>
               <div>
-                <FaCss3Alt style={{color: '#2e56d9', fontSize: '70px'}}/>
+                <FaCss3Alt style={{color: '#2e56d9', fontSize: '70px', margin: '0 65px 0'}}/>
                 <p className={style.stackText}>CSS</p>
               </div>
               <div>
-                <IoLogoJavascript style={{color: '#ffdd00', fontSize: '70px'}}/>
+                <IoLogoJavascript style={{color: '#ffdd00', fontSize: '70px', margin: '0 65px 0'}}/>
                 <p className={style.stackText}>JavaScript</p>
               </div>
               <div>
-                <FaReact style={{color: '#00baff', fontSize: '70px'}}/>
+                <FaReact style={{color: '#00baff', fontSize: '70px', margin: '0 65px 0'}}/>
                 <p className={style.stackText}>React</p>
               </div>
               <div>
-                <TbBrandRedux style={{color: '#8300ff', fontSize: '70px'}}/>
+                <TbBrandRedux style={{color: '#8300ff', fontSize: '70px', margin: '0 65px 0'}}/>
                 <p className={style.stackText}>Redux</p>
               </div>
             </div>
           </div>
+          <div style={{textAlign: 'end', marginTop: '20px'}}>
+            <Headline name={'Experience'}/>
+          </div>
+
         </div>
       </div>
   );

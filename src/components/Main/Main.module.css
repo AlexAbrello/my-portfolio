@@ -5,6 +5,7 @@
     background: rgb(255, 255, 255);
     background: linear-gradient(126deg, rgba(255, 255, 255, 1) 0%, rgba(210, 209, 209, 0.5) 100%);
     margin-left: 150px;
+    overflow: hidden;
 }
 
 .textWrapper {
@@ -101,6 +102,7 @@
 
 @media (max-width: 426px) {
     .photo {
+        position: inherit;
         right: -15%;
     }
 }

@@ -11,37 +11,51 @@ export const MySkills = () => {
   return (
       <div className={style.page}>
         <div className={style.container}>
-          <div style={{marginLeft: '50px'}}>
+          <div>
             <Headline name={'My Stack'}/>
           </div>
           <div className={style.description}>
             <div className={style.stackInfo}>
               <div>
-                <FaHtml5 style={{color: '#d9832e', fontSize: '70px', margin: '0 65px 0'}}/>
+                <div className={style.stackLogo}>
+                  <FaHtml5 style={{color: '#d9832e'}}/>
+                </div>
                 <p className={style.stackText}>HTML</p>
               </div>
               <div>
-                <FaCss3Alt style={{color: '#2e56d9', fontSize: '70px', margin: '0 65px 0'}}/>
+                <div className={style.stackLogo}>
+                  <FaCss3Alt style={{color: '#2e56d9'}}/>
+                </div>
                 <p className={style.stackText}>CSS</p>
               </div>
               <div>
-                <IoLogoJavascript style={{color: '#ffdd00', fontSize: '70px', margin: '0 65px 0'}}/>
+                <div className={style.stackLogo}>
+                  <IoLogoJavascript style={{color: '#ffdd00'}}/>
+                </div>
                 <p className={style.stackText}>JavaScript</p>
               </div>
               <div>
-                <SiTypescript style={{color: '#208fcb', fontSize: '70px', margin: '0 65px 0'}}/>
+                <div className={style.stackLogo}>
+                  <SiTypescript style={{color: '#208fcb'}}/>
+                </div>
                 <p className={style.stackText}>TypeScript</p>
               </div>
               <div>
-                <FaReact style={{color: '#00baff', fontSize: '70px', margin: '0 65px 0'}}/>
+                <div className={style.stackLogo}>
+                  <FaReact style={{color: '#00baff'}}/>
+                </div>
                 <p className={style.stackText}>React</p>
               </div>
               <div>
-                <TbBrandRedux style={{color: '#8300ff', fontSize: '70px', margin: '0 65px 0'}}/>
+                <div className={style.stackLogo}>
+                  <TbBrandRedux style={{color: '#8300ff'}}/>
+                </div>
                 <p className={style.stackText}>Redux</p>
               </div>
               <div>
-                <FaGithub style={{color: '#2f2c31', fontSize: '70px', margin: '0 65px 0'}}/>
+                <div className={style.stackLogo}>
+                  <FaGithub style={{color: '#2f2c31'}}/>
+                </div>
                 <p className={style.stackText}>GitHub</p>
               </div>
             </div>

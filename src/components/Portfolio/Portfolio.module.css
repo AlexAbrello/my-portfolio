@@ -1,0 +1,27 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 50px;
+}
+
+.page {
+    width: 100%;
+    background: linear-gradient(126deg, rgba(255, 255, 255, 1) 0%, rgba(210, 209, 209, 0.5) 100%);
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 1024px) {
+    .container {
+        width: 96%;
+    }
+}
+@media(max-width: 426px) {
+    .cardContainer {
+        flex-direction: column;
+    }
+}

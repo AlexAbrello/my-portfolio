@@ -9,28 +9,33 @@ export const Contact = () => {
           <div style={{marginLeft: '70px'}}>
             <Headline name={'Contact me'}/>
           </div>
-          <form>
-            <div>
-              <input
-                  type="text"
-                  required
-              />
-            </div>
-            <div>
-              <input
-                  type="email"
-                  id="email"
-                  required
-              />
-            </div>
-            <div>
-                <textarea
-                    id="message"
+          <div className={style.formContainer}>
+            <form>
+              <div>
+                <input
+                    type="text"
+                    placeholder='Subject'
                     required
                 />
-            </div>
-            <button type="submit">Send</button>
-          </form>
+              </div>
+              <div>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder='Your E-mail'
+                    required
+                />
+              </div>
+              <div>
+                <textarea
+                    id="message"
+                    placeholder='Message'
+                    required
+                />
+              </div>
+              <button type="submit">Send</button>
+            </form>
+          </div>
         </div>
       </div>
   );

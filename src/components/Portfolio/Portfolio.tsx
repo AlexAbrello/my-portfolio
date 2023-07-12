@@ -9,7 +9,9 @@ export const Portfolio = () => {
   return (
       <div className={style.page}>
         <div className={style.container}>
-          <Headline name={'My works'} />
+          <div style={{marginLeft: '70px'}}>
+            <Headline name={'My works'} />
+          </div>
           <div className={style.cardContainer}>
             <PortfolioCard title={'TodoList App'} logo={<RiTodoLine />}/>
             <PortfolioCard title={'Auto E-Shop'} logo={<GiAutoRepair />}/>
